@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.stackexchange-container .input-container {
+  display: flex;
+  flex-direction: column;
+  background: skyblue;
+  border-radius: 16px;
+  margin: 40px;
+  padding-bottom: 20px;
+}
+.stackexchange-container .input-container .input-container-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stackexchange-container .input-container .input-container-top .input-row-container {
+  padding: 20px;
+}
+
+.stackexchange-container .input-container .input-container-top .input-row-container label{
+  margin-right: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.stackexchange-container .input-container .input-container-top .input-row-container input{
+  padding: 8px 8px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+button {
+  padding: 7px;
+  border-radius: 9px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.listing-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.listing-container .list-individual-container {
+  padding: 16px;
+  border: 1px solid #CCC;
+  border-radius: 12px;
+  margin: 24px;
+  width: 180px;
+  box-shadow: 5px 5px 10px #ccc;
+}
+.listing-container .list-individual-container .header {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  color: #2b96c1;
+}
+
+.listing-container .list-individual-container .row-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.listing-container .list-individual-container .row-details label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.listing-container .list-individual-container .row-details span {
+  font-size: 12px;
+}
+
+.error-text {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #FF0000;
+  text-transform: capitalize;
+}
+
+.loading-text {
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #87ceeb;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-style: italic;
+}
