@@ -137,3 +137,23 @@ button {
   font-weight: 700;
   font-style: italic;
 }
+.page-container .header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.page-container .header .menu {
+  padding: 0 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: system-ui;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.page-container .header .menu.active {
+  color: #0000ff;
+  font-weight: 900;
+}
